@@ -1,12 +1,18 @@
 {
   "name": "oj-diff-patch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://www.orange-juice.nl",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/orange-juice-nl/oj-diff-patch.git"
+    "type": "git",
+    "url": "https://github.com/orange-juice-nl/oj-diff-patch.git"
   },
-  "keywords": ["jsondiff", "diff", "history", "undo", "state"],
+  "keywords": [
+    "jsondiff",
+    "diff",
+    "history",
+    "undo",
+    "state"
+  ],
   "description": "json diff patch repatch, undo / redo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
