@@ -1,6 +1,12 @@
 {
   "name": "oj-diff-patch",
   "version": "1.0.1",
+  "homepage": "https://www.orange-juice.nl",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/orange-juice-nl/oj-diff-patch.git"
+  },
+  "keywords": ["jsondiff", "diff", "history", "undo", "state"],
   "description": "json diff patch repatch, undo / redo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +14,6 @@
     "build": "tsc ./src/index.ts --lib esnext,dom --declaration true --outDir ./dist --module commonjs --moduleResolution node --target es5",
     "share": "npm upgrade && npm version patch -force && npm run build && npm publish --registry https://registry.npmjs.org"
   },
-  "keywords": [],
   "author": "Marius Linders @ Orange Juice<marius.linders@orange-juice.nl>",
   "license": "MIT",
   "dependencies": {
