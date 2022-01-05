@@ -24,8 +24,8 @@ state = dp.add({ packages: [{ name: "oj-diff-patch", version: "1.0.1" }, { name:
 
 ### Undo / Redo
 ```typescript
-undoBtn.classList.toggle("disabled", !dp.canUndo())
-redoBtn.classList.toggle("disabled", !dp.canRedo())
+undoBtn.classList.toggle("is-disabled", !dp.canUndo())
+redoBtn.classList.toggle("is-disabled", !dp.canRedo())
 ```
 ```typescript
 state = dp.undo()
